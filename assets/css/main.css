@@ -3912,13 +3912,12 @@
 		}
 
 		#header.alt {
-			background-color: #444;
+			background-color: #111;
 			color: #fff;
 			-moz-animation: none;
 			-webkit-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background-color: transparent;
 			box-shadow: none;
 			overflow: hidden;
 			position: absolute;
@@ -4580,3 +4579,24 @@
 				}
 
 		}
+
+.image-wrapper img {
+	transition: opacity 0.3s;
+	-webkit-transition: opacity 0.3s;
+}
+
+.image-wrapper:hover img {
+	opacity: .35;
+}
+
+.image-wrapper .image-text {
+	display: none  !important;
+	position: absolute !important;
+	top: 5%;
+	display: flex  !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+.image-wrapper:hover .image-text {
+	display: block !important;
+}

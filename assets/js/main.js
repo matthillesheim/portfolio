@@ -1,8 +1,6 @@
-/*
-	Slate by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
+const imageWrappers = document.querySelectorAll('.image-wrapper');
+
+
 
 
 var settings = {
