@@ -106,7 +106,7 @@
   text-transform: uppercase;
   top: 0;
   width: 100%;
-  z-index: 10000;
+  z-index: 100;
 }
 
   #header h1 {
@@ -183,7 +183,7 @@ h2:after {
 	 height:100%;
 	 text-align:center;
 	 z-index: 1000;
-	 background-color: rgba(107, 107, 107, 0.3);
+	 background-color: rgba(0, 0, 0, 0.9);
 }
 
 @media only screen and (max-width: 600px) {
@@ -205,4 +205,14 @@ h2:after {
 	.posts {
 		margin-top: 1rem;
 	}
+}
+#overlay_image {
+	height: 80%;
+	top: 10%;
+	position: relative;
+}
+.overlayed_image {
+	object-fit: scale-down;
+	height: -webkit-fill-available;
+	width: 100%;
 }
