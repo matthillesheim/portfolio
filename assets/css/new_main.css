@@ -94,6 +94,10 @@
   text-transform: uppercase;
 }
 
+.noscroll {
+	overflow-y: hidden;
+}
+
 #header {
   background-color: black;
   box-shadow: 0 0 0.125em 0 rgba(0, 0, 0, 0.35);
@@ -177,13 +181,22 @@ h2:after {
 #overlay {
 	 visibility: hidden;
 	 position: fixed;
-	 left: 0px;
-	 top: 0px;
-	 width:100%;
-	 height:100%;
+	 left: 0;
+	 top: 0;
+	 right: 0;
+	 bottom: 0;
+	 overflow-y: scroll;
 	 text-align:center;
 	 z-index: 1000;
 	 background-color: rgba(0, 0, 0, 0.9);
+}
+
+#overlayForScroll {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -207,12 +220,15 @@ h2:after {
 	}
 }
 #overlay_image {
-	height: 80%;
-	top: 10%;
-	position: relative;
+	margin: 5% 0;
 }
-.overlayed_image {
+
+.overlayed_image_horiz {
 	object-fit: scale-down;
 	height: -webkit-fill-available;
 	width: 100%;
+}
+
+.overlayed_image_vert {
+	max-width: 80vw;
 }
