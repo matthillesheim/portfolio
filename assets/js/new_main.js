@@ -12,22 +12,22 @@ function toggleOverlay(num) {
 			overlayImgSrc = '<img class="overlayed_image" src="images/matt_made/Makeover Takeover - Wall/FD118_Makeover_Wall.gif" />';
 			break;
 		case 3:
-			overlayImgSrc = '<img class="overlayed_image" src="images/matt_made/New Year, New Sale - Spring 2018/0116_18_NewYearNewSale_AM.gif" />';
+			overlayImgSrc = '<img class="overlayed_image" src="images/matt_made/New Year, New Sale - Spring 2018/SP118_Homepage_Teen_0115_Hero.gif" />';
 			break;
 		case 4:
-			overlayImgSrc = '<img class="overlayed_image" src="images/matt_made/Out Of This World Event - Summer 2018/0515_18_OutOfThisWorldEvent_AM.gif" />';
+			overlayImgSrc = '<img class="overlayed_image" src="images/matt_made/Out Of This World Event - Summer 2018/SU218_Homepage_Teen_0514_SU218_Homepage_Teen_0514_03.gif" />';
 			break;
 		case 5:
 			overlayImgSrc = '<img class="overlayed_image" src="images/matt_made/Star Wars - Holiday 2017/XXXX_17_StarWars_Stormtrooper.gif" />';
 			break;
 		case 6:
-			overlayImgSrc = '<img class="overlayed_image" src="images/matt_made/Style Stories - Spring 2018/0822_18_Bedding_AM.gif" />';
+			overlayImgSrc = '<img class="overlayed_image" src="images/matt_made/Style Stories - Spring 2018/SP18_Welcome_1.jpg" />';
 			break;
 		case 7:
 			overlayImgSrc = '<img class="overlayed_image" src="images/matt_made/The Bedroom Furniture Event - Spring 2017/SpringTemplate_BedroomFurniture_1_MH.gif" />';
 			break;
 		case 8:
-			overlayImgSrc = '<img class="overlayed_image" src="images/matt_made/The Here & Now Sale - Fall 2018/0906_18_HereNowSale_AM.gif" />';
+			overlayImgSrc = '<img class="overlayed_image" src="images/matt_made/The Here & Now Sale - Fall 2018/0907_18_HereNowSale_AM.gif" />';
 			break;
 		case 9:
 			overlayImgSrc = '<img class="overlayed_image" src="images/matt_made/The Lights Out Sale - Spring 2018/SP118_Homepage_Teen_Generic_3.gif" />';
