@@ -4770,3 +4770,24 @@ h3 {
 .major-pad {
 	border-top: solid 1px #e6e6e6;
 }
+
+.iframe-container {
+	position: relative;
+	width:100%;
+	height:0;
+	padding-bottom: 40%;
+}
+.iframe-video {
+	position: absolute;
+	top: 5%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	max-height: 80vh;
+}
+
+@media screen and (max-width: 800px) {
+	.iframe-container {
+		padding-bottom: 80%;
+	}
+}
