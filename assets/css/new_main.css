@@ -4753,6 +4753,7 @@
 .overlayed_image_horiz {
 	object-fit: scale-down;
 	height: -webkit-fill-available;
+	height: -moz-available;
 	width: 100%;
 }
 
